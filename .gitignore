@@ -1,0 +1,6 @@
+__pycache__
+output
+_ignore
+theme/Pelican-Cid/*
+!theme/Pelican-Cid/static
+!theme/Pelican-Cid/templates

@@ -3,7 +3,7 @@ Title: Projects
 ## D-M Adventure
 A static Neocities website I made for fun. Generated from Jinja templates (Python).
 
-* [Text-based game](http://d-m-adventure.neocities.org)
+* [Home (text-based game)](http://d-m-adventure.neocities.org)
 * [Bullet hell game](http://d-m-adventure.neocities.org/canvasgame.html)
 * [Music synthesis applications](http://d-m-adventure.neocities.org/music.html)
     * [Mouse-controlled ribbon synthesizer](http://d-m-adventure.neocities.org/ribbonsynth.html)

@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 class SiteTestCase(unittest.TestCase):
     
     def local_url(self, url):
-        return urljoin('http://localhost:8000', url.replace('.\\', '').replace('\\', '/'))
+        return urljoin('http://localhost:8000', url)
     
     def assert_status_code(self, url, code=200):
         with urlopen(url) as resp:
@@ -38,7 +38,8 @@ class SiteTestCase(unittest.TestCase):
         pages = []
         links = set()
         for result in os.walk('.'):
-            pages.extend([os.path.join(result[0], x) for x in result[2] if x.endswith('.html')])
+            pages.extend([os.path.join(result[0], x).replace('.\\', '').replace('\\', '/')
+                          for x in result[2] if x.endswith('.html')])
         all_link_sets = self.pool.imap(get_tree, pages)
         for link_set in all_link_sets:
             links.update(link_set)

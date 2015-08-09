@@ -4,3 +4,4 @@ _ignore
 theme/Pelican-Cid/*
 !theme/Pelican-Cid/static
 !theme/Pelican-Cid/templates
+!theme/Pelican-Cid/LICENSE

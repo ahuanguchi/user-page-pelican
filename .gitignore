@@ -2,6 +2,7 @@ __pycache__
 output
 _ignore
 theme/Pelican-Cid/*
+!theme/Pelican-Cid/src
 !theme/Pelican-Cid/static
 !theme/Pelican-Cid/templates
 !theme/Pelican-Cid/LICENSE

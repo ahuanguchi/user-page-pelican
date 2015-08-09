@@ -44,7 +44,7 @@ class SiteTestCase(unittest.TestCase):
         for link_set in all_link_sets:
             links.update(link_set)
         feedback = self.pool.imap(self.assert_status_code, links)
-        self.assertGreater(len([x for x in feedback if x]), 0)
+        self.assertEqual(len([x for x in feedback if x]), len(links))
 
 
 if __name__ == '__main__':

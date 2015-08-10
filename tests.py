@@ -9,6 +9,8 @@ from urllib.parse import urljoin
 class SiteTestCase(unittest.TestCase):
     
     def local_url(self, url):
+        if url.startswith('http'):
+            return url
         return urljoin('http://localhost:8000', url)
     
     def assert_status_code(self, url, code=200):

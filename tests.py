@@ -43,6 +43,7 @@ class SiteTestCase(unittest.TestCase):
         all_link_sets = self.pool.imap(get_tree, pages)
         for link_set in all_link_sets:
             links.update(link_set)
+        self.assertGreater(len(links), 0)
         feedback = self.pool.imap(self.assert_status_code, links)
         self.assertEqual(len([x for x in feedback if x]), len(links))
 

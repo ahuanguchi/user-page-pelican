@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic)
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300)
+@import url(https://fonts.googleapis.com/css?family=Cantata+One)
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,300)
 @import "manni"
 
 $break-small: 640px
@@ -8,9 +8,10 @@ $text-color: #030303
 $bg-color: #fefefe
 $code-color: #c7254e
 $code-bg-color: #f9f2f4
+$pre-bg-color: #eee
 
-$header-font: 'Gentium Book Basic', 'Georgia', serif
-$body-font: 'Merriweather', 'Georgia', serif
+$header-font: 'Cantata One', 'Georgia', serif
+$body-font: 'Signika Negative', 'Helvetica', sans-serif
 $monospace-font: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace
 
 *
@@ -20,6 +21,15 @@ $monospace-font: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace
 
 code, kbd, pre, samp
     font-family: $monospace-font
+
+pre
+    margin: 12px
+
+.highlight
+    background-color: $pre-bg-color
+
+    *
+        background-color: $pre-bg-color
 
 body
     font-family: $body-font
@@ -58,9 +68,6 @@ body
     font-size: 70%
     float: right
 
-.landing-header
-    text-align: center
-
 .landing-container
     width: 65%
     margin: 2em auto 0
@@ -78,6 +85,9 @@ body
         h1
             font-size: 4em
             margin: 0.4em 0
+            text-align: center
+            @media screen and (max-width: $break-small)
+                font-size: 3em
 
     ul
         margin-top: 5em

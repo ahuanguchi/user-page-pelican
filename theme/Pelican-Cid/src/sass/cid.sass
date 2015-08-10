@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Cantata+One)
 @import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,300)
-@import "manni"
+@import manni
 
 $break-small: 640px
 
@@ -9,7 +9,7 @@ $bg-color: #fefefe
 $code-color: #c7254e
 $code-bg-color: #f9f2f4
 $pre-bg-color: #eee
-$link-color: #004B6B
+$link-color: #004b6b
 
 $header-font: 'Cantata One', 'Georgia', serif
 $body-font: 'Signika Negative', 'Helvetica', sans-serif
@@ -66,6 +66,7 @@ body
 .nav
     list-style: none
     padding-left: 0
+
     li
         display: inline-block
         margin-right: 0.28em
@@ -171,7 +172,6 @@ body
 
     // The post body
     .post
-
         font-size: 1em
         @media screen and (max-width: $break-small)
             font-size: 1em

@@ -70,4 +70,5 @@ CUSTOM_MENUITEMS = [
 ]
 CONTACTS = [
     ('GitHub', GITHUB_URL),
+    ('Contact', 'https://docs.google.com/forms/d/1z1WD3qYBDEiKd9LKlgUW3vzNjJQQHZIZk7Yy_qWrXuk/viewform?usp=send_form'),
 ]

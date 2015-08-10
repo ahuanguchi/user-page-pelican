@@ -11,7 +11,7 @@
             {% endfor %}
         {% endif %}
         {% for title,url in CONTACTS %}
-            <li><a href="{{ url }}">{{ title|capitalize }}</h3>
+            <li><a href="{{ url }}">{{ title }}</h3>
             </a></li>
         {% endfor %}
         {% include 'email.html' %}

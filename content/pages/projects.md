@@ -1,7 +1,7 @@
 Title: Projects
 
 ## D-M Adventure
-A static Neocities website I made for fun. Generated from Jinja templates (Python). Interactive portions made with native JavaScript, p5.js, and AngularJS.
+A static Neocities website I made for fun. Generated from Jinja templates (Python). Interactive pages made with native JavaScript, p5.js, and AngularJS.
 
 * [Home (text-based game)](http://d-m-adventure.neocities.org)
 * [Bullet hell game](http://d-m-adventure.neocities.org/canvasgame.html)

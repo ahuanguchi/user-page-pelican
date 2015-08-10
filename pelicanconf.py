@@ -67,8 +67,8 @@ CUSTOM_MENUITEMS = [
     ('About', 'pages/about.html'),
     ('Projects', 'pages/projects.html'),
     ('Blog', INDEX_SAVE_AS),
+    ('Contact', 'pages/contact.html'),
 ]
 CONTACTS = [
     ('GitHub', GITHUB_URL),
-    ('Contact', 'https://docs.google.com/forms/d/1z1WD3qYBDEiKd9LKlgUW3vzNjJQQHZIZk7Yy_qWrXuk/viewform?usp=send_form'),
 ]

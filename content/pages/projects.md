@@ -1,7 +1,9 @@
 Title: Projects
 
-## D-M Adventure
-A static Neocities website I made for fun. Generated from Jinja templates (Python). Interactive pages made with native JavaScript, p5.js, and AngularJS.
+Here are some of my personal projects that are available online.
+
+### D-M Adventure
+A Neocities website I made for fun. Static HTML generated from Jinja templates (Python). Interactive pages made with native JavaScript, p5.js, and AngularJS.
 
 * [Home (text-based game)](http://d-m-adventure.neocities.org)
 * [Bullet hell game](http://d-m-adventure.neocities.org/canvasgame.html)
@@ -9,13 +11,13 @@ A static Neocities website I made for fun. Generated from Jinja templates (Pytho
     * [Mouse-controlled ribbon synthesizer](http://d-m-adventure.neocities.org/ribbonsynth.html)
     * [Computer keyboard-controlled synthesizer](http://d-m-adventure.neocities.org/keyboardsynth.html)
 
-## Python Web Apps
+### Python Web Apps
 Made with Flask and hosted on PythonAnywhere.
 
 * [Site safety checker](http://sitesafety.pythonanywhere.com)
 * [Dictionary-based Caesar cipher converter](http://caesarcipher.pythonanywhere.com)
 
-## User Scripts
+### User Scripts
 Hosted on Greasy Fork and compatible with Tampermonkey for Chrome and Greasemonkey for Firefox.
 
 * [Timeout disabler](https://greasyfork.org/en/scripts/10967-clear-all-timeouts)

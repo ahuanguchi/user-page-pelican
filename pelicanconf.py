@@ -60,7 +60,7 @@ DIRECT_TEMPLATES = [
     'archives',
     'categories',
 ]
-SITEFOOTER = 'Built with <a href="http://getpelican.com">Pelican</a> and the <a href="https://github.com/hdra/Pelican-Cid">Cid</a> theme with modifications.'
+SITEFOOTER = 'Built with <a href="http://getpelican.com" target="_blank">Pelican</a> and the <a href="https://github.com/hdra/Pelican-Cid" target="_blank">Cid</a> theme with modifications.'
 INDEX_SAVE_AS = 'blog.html'
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = [

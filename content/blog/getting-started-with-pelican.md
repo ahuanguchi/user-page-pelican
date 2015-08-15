@@ -1,7 +1,7 @@
 Title: Getting started with Pelican
 Category: Python
 
-I've decided to learn how to generate static sites with Pelican! After previously using Jinja to help build sites, both with Flask and on its own, this is going pretty smoothly. It's nice that the themes are based on Jinja, a highly intuitive templating language, so you can easily alter templates to your liking. But the great thing about Pelican is that, by default, templates have access to various Pelican-specific variables as well as the variables that you set in your configuration file, so you often don't even need to touch the template files themselves to customize their content.
+I've decided to learn how to generate static sites with [Pelican](http://docs.getpelican.com)! After previously using Jinja to help build sites, both with Flask and on its own, this is going pretty smoothly. It's nice that the themes are based on Jinja, a highly intuitive templating language, so you can easily alter templates to your liking. But the great thing about Pelican is that, by default, templates have access to various Pelican-specific variables as well as the variables that you set in your configuration file, so you often don't even need to touch the template files themselves to customize their content.
 
 Also, being able to generate HTML from Markdown files makes writing content much simpler, even if it only means not having to type the few extra tags you'd need to use in Jinja templates. Easy syntax highlighting is an added bonus. All you have to do to get Python syntax highlighting for a block of code is add `:::python` right above it.
 

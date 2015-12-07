@@ -16,6 +16,6 @@ At my lab, we're preparing to host [jsPysch](http://www.jspsych.org) experiments
 
     uid = user_id_here
     gid = group_id_here
-    chown-socket = user_id_here
+    chown-socket = user_id_here:group_id_here
 
 If the file is named `server.ini`, you can start the server by entering `sudo uwsgi --ini server.ini` on the command line. After that, you can start making HTTP requests to your domain (your IP address).

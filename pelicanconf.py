@@ -71,4 +71,5 @@ CUSTOM_MENUITEMS = [
 ]
 CONTACTS = [
     ('GitHub', GITHUB_URL),
+    ('Twitter', 'https://twitter.com/LydianChord'),
 ]

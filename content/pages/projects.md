@@ -2,6 +2,14 @@ Title: Projects
 
 Here are some of my personal projects that are available online.
 
+### Computer Games
+Games and/or soundtracks for games that I've made.
+
+* [Abandoned Building Quest](https://alexh.itch.io/abandoned-building-quest)
+    * [Soundtrack](https://lydianchord.bandcamp.com/album/abandoned-building-quest-soundtrack)
+* Soundtrack for NomnomNami's NaNoRenO 2016 game - coming soon!
+    * You can follow her progress on the game [here](http://nomnomnamidev.tumblr.com)
+
 ### D-M Adventure
 A Neocities website I made for fun. Static HTML generated from Jinja templates (Python). Interactive pages made with plain JavaScript, p5.js, AngularJS, and Flocking.
 

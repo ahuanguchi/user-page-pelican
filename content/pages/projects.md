@@ -5,10 +5,16 @@ Here are some of my personal projects that are available online.
 ### Computer Games
 Games and/or soundtracks for games that I've made.
 
-* [Abandoned Building Quest](https://alexh.itch.io/abandoned-building-quest)
+* [Soundtrack for Her Tears Were My Light](https://lydianchord.bandcamp.com/album/her-tears-were-my-light-soundtrack)
+    * You can find the game by NomnomNami [here](https://nomnomnami.itch.io/her-tears-were-my-light)
+* [Abandoned Building Quest](https://alexh.itch.io/abandoned-building-quest) - made with Ren'py/Python
     * [Soundtrack](https://lydianchord.bandcamp.com/album/abandoned-building-quest-soundtrack)
-* [Soundtrack for Her Tears Were My Light by NomnomNami](https://lydianchord.bandcamp.com/album/her-tears-were-my-light-soundtrack)
-    * You can find the game [here](https://nomnomnami.itch.io/her-tears-were-my-light)
+
+### Miscellaneous Music
+Original compositions, musical ideas, fandom-related remixes, etc.
+
+* [YouTube](https://www.youtube.com/channel/UCxeoFnSFcSjxLL_Xi1cnaRg) - music from my original soundtracks and remixes of notable music
+* [SoundCloud](https://soundcloud.com/lydianchord) - various things that don't really fit anywhere else
 
 ### D-M Adventure
 A Neocities website I made for fun. Static HTML generated from Jinja templates (Python). Interactive pages made with plain JavaScript, p5.js, AngularJS, and Flocking.
@@ -16,8 +22,6 @@ A Neocities website I made for fun. Static HTML generated from Jinja templates (
 * [Home (text-based game)](http://d-m-adventure.neocities.org)
 * [Bullet hell game](http://d-m-adventure.neocities.org/canvasgame.html)
 * [Music synthesis applications](http://d-m-adventure.neocities.org/music.html)
-    * [Mouse-controlled ribbon synthesizer](http://d-m-adventure.neocities.org/ribbonsynth.html)
-    * [Computer keyboard-controlled synthesizer](http://d-m-adventure.neocities.org/keyboardsynth.html)
 
 ### Python Web Apps
 Made with Flask and hosted on PythonAnywhere.
